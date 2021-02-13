@@ -1,7 +1,7 @@
 package lab1;
 import java.util.Scanner;
 
-public class Grades {
+public class HelloWorld {
   public static void main(String[] args) {
     // A scanner is a "tool" to read stuff the user write in the terminal.
     Scanner scanner = new Scanner(System.in);
