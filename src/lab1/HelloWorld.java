@@ -16,7 +16,7 @@ public class HelloWorld {
 
     // Helper function to compute the average value of an array.
     int average = computeGradesAverage(grades);
-    System.out.println("The average is: " + average);
+    System.out.println("The average is " + average);
 
     // We print a message to students.
     gradesAnalysis(average, grades);
