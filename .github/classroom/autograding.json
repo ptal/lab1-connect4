@@ -1,6 +1,16 @@
 {
   "tests": [
     {
+      "name": "Test-0 - HelloWorld",
+      "setup": "javac src/lab1/HelloWorld.java",
+      "run": "timeout 10s java -cp src lab1.HelloWorld",
+      "input": "2\n 10\n 12\n",
+      "output": "The average is 11",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
       "name": "Test-A1 - MessageToTheWorld",
       "setup": "javac src/lab1/MessageToTheWorld.java",
       "run": "timeout 10s java -cp src lab1.MessageToTheWorld",
